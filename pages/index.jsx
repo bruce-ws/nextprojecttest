@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Link from 'next/link'
 export default function index() {
     return (
         <div>
             首页
+            <Link href="/list">列表</Link>
         </div>
     )
 }
